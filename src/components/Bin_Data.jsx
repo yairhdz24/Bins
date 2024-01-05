@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import lottie from "lottie-web";
 import animationData from "../images/corazon.json"; // Reemplaza con la ubicación de tu archivo JSON
+import { Slidebar } from "./Sliderbar";
 
 export const MiAMOR = () => {
   const [mostrarMensaje, setMostrarMensaje] = useState(false);
@@ -57,6 +58,9 @@ export const MiAMOR = () => {
           Te Amo Emilly 💖
         </p>
       )}
+    <div className="sss">okk
     </div>
+    </div>
+    
   );
 };
